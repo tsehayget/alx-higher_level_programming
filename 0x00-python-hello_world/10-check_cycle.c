@@ -1,9 +1,11 @@
 #include "lists.h"
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 /**
  * check_cycle - checks if linked list is a circle
  * @list: imports the linked list
- * Return: 0 or 1
+ * Return: 0 | 1
  */
 int check_cycle(listint_t *list)
 {
